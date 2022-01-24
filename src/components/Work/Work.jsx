@@ -1,32 +1,137 @@
 import React from "react";
+import {
+  Card,
+  CardMedia,
+  CardActions,
+  CardContent,
+  Button,
+  Typography,
+} from "@mui/material";
+import UX_Pet from "../../assets/image/UX_Pet.png";
+import UX_Logo from "../../assets/image/UX_Logo.png";
+import UX_Motion from "../../assets/image/UX_Motion.png";
+import UX_Video from "../../assets/image/UX_Video.png";
+import { NavLink } from "react-router-dom";
 
+export function WorkCard(props) {
+  const { title1, title2, detail, img, nav, backgroundColor } = props;
+  return (
+    <Card
+      variant="outlined"
+      sx={{ width: 362, backgroundColor: { backgroundColor }, border: "none" }}
+    >
+      <CardContent>
+        <Typography
+          sx={{ fontSize: 12, fontWeight: 300 }}
+          color="text.secondary"
+          gutterBottom
+        >
+          {title1}
+        </Typography>
+        <NavLink to={`/work/${nav}`}>
+          <Typography
+            style={{ marginTop: 5 }}
+            sx={{ fontSize: 24, fontWeight: 700 }}
+            component="div"
+          >
+            {title2}
+          </Typography>
+        </NavLink>
+        <Typography
+          style={{ marginTop: 5 }}
+          sx={{ fontSize: 14, lineHeight: "150%" }}
+        >
+          {detail}
+        </Typography>
+      </CardContent>
+      <NavLink to={`/work/${nav}`}>
+        <CardMedia
+          component="img"
+          height="240"
+          width="362"
+          image={img}
+          alt="Paella dish"
+        />
+      </NavLink>
+    </Card>
+  );
+}
 export default function Work() {
   return (
-    <div>
-      <h2
-        style={{
-          textAlign: "center",
-          marginTop: 120,
-          fontSize: 30,
-          marginBottom: 120,
-        }}
+    <div className="work">
+      <div style={{ height: 460, paddingTop: 150 }}>
+        <h2
+          style={{
+            textAlign: "center",
+            fontSize: 30,
+            fontWeight: 700,
+            marginBottom: 50,
+          }}
+        >
+          👋 Hi, Boya here!
+        </h2>
+        <p
+          style={{
+            width: 450,
+            height: 144,
+            margin: "auto",
+            lineHeight: "150%",
+            textAlign: "center",
+            marginBottom: 200,
+          }}
+        >
+          I am a designer who work on UX design, graphic design and motion
+          graphic design. I graduated from Monash University with a degree of
+          Multimedia Design. I am looking for full-time opportunities in 2022.
+        </p>
+      </div>
+      <div
+        style={{ backgroundColor: "#E5E5E5", height: 1100, padding: "0 200px" }}
       >
-        👋 Hi, Boya here!
-      </h2>
-      <p
-        style={{
-          width: 450,
-          height: 144,
-          margin: "auto",
-          paddingTop: 20,
-          fontSize: 18,
-          textAlign: "center",
-        }}
-      >
-        I am a designer who work on UX design, graphic design and motion graphic
-        design. I graduated from Monash University with a degree of Multimedia
-        Design. I am looking for full-time opportunities in 2022.
-      </p>
+        <div style={{ display: "flex", padding: "50px 0" }}>
+          <div style={{ flex: 1 }}></div>
+          <WorkCard
+            title1="01 - UX DESIGN"
+            title2="Pet Food Delivery App"
+            detail=" A mobile app that allows users to schedule the products delivery time."
+            img={UX_Pet}
+            nav="ux"
+            backgroundColor="transparent"
+          />
+          <div style={{ width: 50 }}></div>
+          <WorkCard
+            title1="02 - LOGO DESIGN"
+            title2="Big Bowl"
+            detail=" A brand upgrade project for a local fast-food restaurant."
+            img={UX_Logo}
+            nav="logo"
+            backgroundColor="transparent"
+          />
+          <div style={{ flex: 1 }}></div>
+        </div>
+        <div style={{ display: "flex" }}>
+          <div style={{ flex: 1 }}></div>
+          <WorkCard
+            title1="03 - MOTION GRAPHICS DESIGN"
+            title2="Popcorn Movie Review"
+            detail="An opening title designed for Student TV (conceptual)."
+            img={UX_Motion}
+            nav="motion"
+            backgroundColor="transparent"
+          />
+          <div style={{ width: 50 }}></div>
+          <WorkCard
+            title1="04 - VEDIO EDITING"
+            title2="Daydreamer"
+            detail="A seven-minute short film that tells the psychological journey of a girl."
+            img={UX_Video}
+            nav="video"
+            backgroundColor="transparent"
+          />
+          <div style={{ flex: 1 }}></div>
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 }

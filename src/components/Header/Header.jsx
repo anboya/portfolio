@@ -1,11 +1,10 @@
 import React from "react";
-import { NavLink, withRouter } from "react-router-dom";
-import { Grid } from "@mui/material";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
-import web_icon from "../../assets/Logo_pink.png";
+import web_icon from "../../assets/icon/Logo_pink.png";
 export default function Header() {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="header" style={{ display: "flex" }}>
       <NavLink to="/work" style={{ marginLeft: 100, paddingTop: 20 }}>
         <img style={{ width: 150 }} src={web_icon} alt="" />
       </NavLink>
@@ -19,13 +18,15 @@ export default function Header() {
           justifyContent: "space-around",
           paddingTop: 42,
           textAlign: "center",
+          fontSize: 16,
+          fontWeight: 600,
         }}
       >
-        <NavLink to="/work">Work</NavLink>
+        <NavLink to="/work">WORK</NavLink>
 
-        <NavLink to="/about">About</NavLink>
+        <NavLink to="/about">ABOUT</NavLink>
 
-        <div>Resume</div>
+        <div>RESUME</div>
       </div>
     </div>
   );
