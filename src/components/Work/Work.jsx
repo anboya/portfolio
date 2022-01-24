@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardMedia,
-  CardActions,
-  CardContent,
-  Button,
-  Typography,
-} from "@mui/material";
+import { Card, CardMedia, CardContent, Typography } from "@mui/material";
 import UX_Pet from "../../assets/image/UX_Pet.png";
 import UX_Logo from "../../assets/image/UX_Logo.png";
 import UX_Motion from "../../assets/image/UX_Motion.png";

@@ -30,7 +30,7 @@ export default function Card(props) {
         style={{
           fontWeight: 700,
           fontSize: 18,
-          marginTop: 25,
+          marginTop: 15,
           textAlign: "center",
         }}
       >

@@ -7,6 +7,7 @@ import UX_D from "./components/Work/UX_D/UX_D";
 import Logo_D from "./components/Work/Logo_D/Logo_D";
 import Motion_D from "./components/Work/Motion_D/Motion_D";
 import Video_D from "./components/Work/Video_D/Video_D";
+
 function App() {
   return (
     <div>

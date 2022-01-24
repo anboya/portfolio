@@ -33,7 +33,6 @@ import Louise from "../../../assets/image/Louise.png";
 import app1 from "../../../assets/image/app1.png";
 import app2 from "../../../assets/image/app2.png";
 import app3 from "../../../assets/image/app3.png";
-
 import { Button } from "@mui/material";
 import SubFooter from "../SubFooter/SubFooter";
 function NumberCard(props) {
@@ -112,6 +111,7 @@ export default function UX_D() {
         }}
       >
         <img
+          alt=""
           style={{ height: 381, width: 1152, display: "block" }}
           src={threePhone}
         ></img>
@@ -204,7 +204,7 @@ export default function UX_D() {
           <VerticalFlex
             style={{
               width: 320,
-              height: 600,
+              height: 650,
               background: "#FFFFFF",
               border: "1px solid #DBDBDB",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -215,6 +215,7 @@ export default function UX_D() {
             }}
           >
             <img
+              alt=""
               style={{
                 display: "block",
                 width: 109,
@@ -261,7 +262,7 @@ export default function UX_D() {
           <VerticalFlex
             style={{
               width: 320,
-              height: 600,
+              height: 650,
               background: "#FFFFFF",
               border: "1px solid #DBDBDB",
               boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -272,6 +273,7 @@ export default function UX_D() {
             }}
           >
             <img
+              alt=""
               style={{
                 display: "block",
                 width: 109,
@@ -317,6 +319,7 @@ export default function UX_D() {
         </HorizontalFlex>
         <SubTitle>User journey maps</SubTitle>
         <img
+          alt=""
           style={{
             display: "block",
             width: 950,
@@ -326,6 +329,7 @@ export default function UX_D() {
         <SubTitle>Value proposition</SubTitle>
         <HorizontalFlex>
           <img
+            alt=""
             style={{
               display: "block",
               width: 480,
@@ -334,6 +338,7 @@ export default function UX_D() {
             src={valueproposition1}
           ></img>
           <img
+            alt=""
             style={{
               display: "block",
               width: 480,
@@ -352,6 +357,7 @@ export default function UX_D() {
         </SubText>
         <Button variant="contained">Learn more</Button>
         <img
+          alt=""
           style={{
             display: "block",
             width: 960,
@@ -365,6 +371,7 @@ export default function UX_D() {
         <MainTitle>- Starting the design -</MainTitle>
         <SubTitle>Information architecture</SubTitle>
         <img
+          alt=""
           style={{
             display: "block",
             width: 750,
@@ -375,6 +382,7 @@ export default function UX_D() {
           <VerticalFlex style={{ width: 420, margin: "0 10px" }}>
             <SubTitle style={{ marginBottom: 20 }}>User flow</SubTitle>
             <img
+              alt=""
               style={{
                 display: "block",
                 width: 420,
@@ -385,6 +393,7 @@ export default function UX_D() {
           <VerticalFlex style={{ width: 420, margin: "0 10px" }}>
             <SubTitle style={{ marginBottom: 20 }}>Paper wireframes</SubTitle>
             <img
+              alt=""
               style={{
                 display: "block",
                 width: 420,
@@ -395,6 +404,7 @@ export default function UX_D() {
         </HorizontalFlex>
         <SubTitle>Digital wireframes</SubTitle>
         <img
+          alt=""
           style={{
             display: "block",
             width: 900,
@@ -403,6 +413,7 @@ export default function UX_D() {
         ></img>
         <HorizontalFlex style={{ marginTop: 100, marginBottom: 140 }}>
           <img
+            alt=""
             style={{
               display: "block",
               width: 500,
@@ -448,6 +459,7 @@ export default function UX_D() {
             </div>
             <HorizontalFlex style={{ marginTop: 50, marginRight: -100 }}>
               <img
+                alt=""
                 style={{
                   display: "block",
                   width: 94,
@@ -483,6 +495,7 @@ export default function UX_D() {
           </VerticalFlex>
           <VerticalFlex style={{ width: 590 }}>
             <img
+              alt=""
               style={{ display: "block", width: 590 }}
               src={Itemdetails}
             ></img>
@@ -491,6 +504,7 @@ export default function UX_D() {
         <HorizontalFlex>
           <VerticalFlex style={{ width: 590 }}>
             <img
+              alt=""
               style={{ display: "block", width: 590 }}
               src={ordercompleted}
             ></img>
@@ -505,6 +519,7 @@ export default function UX_D() {
             </div>
             <HorizontalFlex style={{ marginTop: 50, marginRight: -100 }}>
               <img
+                alt=""
                 style={{
                   display: "block",
                   width: 94,
@@ -535,6 +550,7 @@ export default function UX_D() {
             </HorizontalFlex>
             <HorizontalFlex style={{ marginTop: 50, marginRight: -100 }}>
               <img
+                alt=""
                 style={{
                   display: "block",
                   width: 94,
@@ -573,10 +589,12 @@ export default function UX_D() {
       </VerticalFlex>
       <VerticalFlex>
         <img
+          alt=""
           style={{ display: "block", width: 650, marginTop: 115 }}
           src={app1}
         ></img>
         <img
+          alt=""
           style={{ display: "block", width: 900, marginTop: 115 }}
           src={app2}
         ></img>
@@ -587,7 +605,7 @@ export default function UX_D() {
           View More
         </Button>
         <VerticalFlex style={{ background: "#E0E4FF", marginTop: 140 }}>
-          <img style={{ display: "block", width: 880 }} src={app3}></img>
+          <img alt="" style={{ display: "block", width: 880 }} src={app3}></img>
         </VerticalFlex>
         <MainTitle>- What I learned -</MainTitle>
         <SubText style={{ marginTop: 47, fontWeight: 500, marginBottom: 135 }}>

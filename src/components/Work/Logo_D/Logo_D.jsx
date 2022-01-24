@@ -8,13 +8,17 @@ import {
 import SubFooter from "../SubFooter/SubFooter";
 import logobgd from "../../../assets/image/logobgd.png";
 import Card from "../../Common/Card/Card";
-
+import { Button } from "@mui/material";
+import bigbowl1 from "../../../assets/image/bigbowl1.png";
+import bigbowl2 from "../../../assets/image/bigbowl2.png";
+import bigbowl3 from "../../../assets/image/bigbowl3.png";
 export default function Logo_D() {
   return (
     <Root>
       <VerticalFlex>
         <div style={{ width: "100%", position: "relative" }}>
           <img
+            alt=""
             style={{
               width: "100%",
               height: "100%",
@@ -68,6 +72,29 @@ export default function Logo_D() {
           elements. Therefore, I combined a shape of bowl with Chinese
           traditional stamp artistic effect.
         </SubText>
+        <Button variant="contained" style={{ margin: "80px 0" }}>
+          Learn more
+        </Button>
+        <img
+          alt=""
+          style={{ display: "block", width: 1150, height: 704 }}
+          src={bigbowl1}
+        ></img>
+        <img
+          alt=""
+          style={{ display: "block", width: 968, height: 483 }}
+          src={bigbowl2}
+        ></img>
+        <img
+          alt=""
+          style={{
+            display: "block",
+            width: 1216,
+            height: 729,
+            marginBottom: 200,
+          }}
+          src={bigbowl3}
+        ></img>
         <SubFooter number={2}></SubFooter>
       </VerticalFlex>
     </Root>
