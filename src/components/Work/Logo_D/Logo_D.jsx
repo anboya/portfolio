@@ -4,11 +4,11 @@ import {
   VerticalFlex,
   HorizontalFlex,
   SubText,
+  MyButton,
 } from "../../Common/Base/Base";
 import SubFooter from "../SubFooter/SubFooter";
 import logobgd from "../../../assets/image/logobgd.png";
 import Card from "../../Common/Card/Card";
-import { Button } from "@mui/material";
 import bigbowl1 from "../../../assets/image/bigbowl1.png";
 import bigbowl2 from "../../../assets/image/bigbowl2.png";
 import bigbowl3 from "../../../assets/image/bigbowl3.png";
@@ -72,9 +72,13 @@ export default function Logo_D() {
           elements. Therefore, I combined a shape of bowl with Chinese
           traditional stamp artistic effect.
         </SubText>
-        <Button variant="contained" style={{ margin: "80px 0" }}>
+        <MyButton
+          target="_blank"
+          href="https://drive.google.com/file/d/1TMeBu4EJciO8Q1hU3XBHGTiQxgBxo3_I/view?usp=sharing"
+          style={{ margin: "80px 0" }}
+        >
           Learn more
-        </Button>
+        </MyButton>
         <img
           alt=""
           style={{ display: "block", width: 1150, height: 704 }}

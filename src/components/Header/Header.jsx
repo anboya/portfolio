@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 import web_icon from "../../assets/icon/Logo_pink.png";
+import { HoverSpanNoUnderline } from "../Common/Base/Base";
 export default function Header() {
   return (
     <div className="header" style={{ display: "flex" }}>
@@ -22,11 +23,15 @@ export default function Header() {
           fontWeight: 600,
         }}
       >
-        <NavLink to="/work">WORK</NavLink>
-
-        <NavLink to="/about">ABOUT</NavLink>
-
-        <div>RESUME</div>
+        <NavLink to="/work">
+          <HoverSpanNoUnderline>WORK</HoverSpanNoUnderline>
+        </NavLink>
+        <NavLink to="/about">
+          <HoverSpanNoUnderline>ABOUT</HoverSpanNoUnderline>
+        </NavLink>
+        <a href="" download="Boya An.pdf">
+          <HoverSpanNoUnderline>RESUME</HoverSpanNoUnderline>
+        </a>
       </div>
     </div>
   );

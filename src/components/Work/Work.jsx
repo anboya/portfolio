@@ -1,11 +1,24 @@
 import React from "react";
-import { Card, CardMedia, CardContent, Typography } from "@mui/material";
+import {
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  Hidden,
+} from "@mui/material";
 import UX_Pet from "../../assets/image/UX_Pet.png";
 import UX_Logo from "../../assets/image/UX_Logo.png";
 import UX_Motion from "../../assets/image/UX_Motion.png";
 import UX_Video from "../../assets/image/UX_Video.png";
 import { NavLink } from "react-router-dom";
+import ReactHover, { Trigger, Hover } from "react-hover";
+import { Mask } from "../Common/Base/Base";
 
+const optionsCursorTrueWithMargin = {
+  followCursor: false,
+  shiftX: 0,
+  shiftY: 0,
+};
 export function WorkCard(props) {
   const { title1, title2, detail, img, nav, backgroundColor } = props;
   return (
@@ -13,7 +26,7 @@ export function WorkCard(props) {
       variant="outlined"
       sx={{ width: 362, backgroundColor: { backgroundColor }, border: "none" }}
     >
-      <CardContent>
+      <CardContent style={{ marginLeft: 4 }}>
         <Typography
           sx={{ fontSize: 12, fontWeight: 300 }}
           color="text.secondary"
@@ -38,13 +51,39 @@ export function WorkCard(props) {
         </Typography>
       </CardContent>
       <NavLink to={`/work/${nav}`}>
-        <CardMedia
-          component="img"
-          height="240"
-          width="362"
-          image={img}
-          alt="Paella dish"
-        />
+        <div
+          style={{
+            position: "relative",
+            margin: "5px 20px",
+            borderRadius: "10px ",
+            overflow: "hidden",
+            boxShadow: "4px 5px 4px rgba(0, 0, 0, 0.25)",
+          }}
+        >
+          <ReactHover options={optionsCursorTrueWithMargin}>
+            <Trigger type="trigger">
+              <CardMedia
+                component="img"
+                height="240"
+                width="362"
+                image={img}
+                alt=""
+              />
+            </Trigger>
+            <Hover type="hover">
+              <NavLink to="/work/video">
+                <Mask
+                  style={{
+                    width: 322,
+                    height: 240,
+                    top: -240,
+                    borderRadius: 0,
+                  }}
+                ></Mask>
+              </NavLink>
+            </Hover>
+          </ReactHover>
+        </div>
       </NavLink>
     </Card>
   );

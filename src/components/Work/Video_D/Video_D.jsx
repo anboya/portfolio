@@ -9,7 +9,7 @@ import SubFooter from "../SubFooter/SubFooter";
 import videobgd from "../../../assets/image/videobgd.png";
 import Card from "../../Common/Card/Card";
 
-export default function Logo_D() {
+export default function Video_D() {
   return (
     <Root>
       <VerticalFlex>

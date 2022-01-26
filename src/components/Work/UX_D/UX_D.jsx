@@ -7,6 +7,10 @@ import {
   SubTitle,
   SubText,
   MainTitle,
+  MyButton,
+  HoverSpan,
+  AnimatedSpan,
+  Slider,
 } from "../../Common/Base/Base";
 import Card from "../../Common/Card/Card";
 import LooksOneIcon from "@mui/icons-material/LooksOne";
@@ -33,8 +37,11 @@ import Louise from "../../../assets/image/Louise.png";
 import app1 from "../../../assets/image/app1.png";
 import app2 from "../../../assets/image/app2.png";
 import app3 from "../../../assets/image/app3.png";
-import { Button } from "@mui/material";
 import SubFooter from "../SubFooter/SubFooter";
+import { HashLink } from "react-router-hash-link";
+import BackToTop from "../../Common/BackToTop/BackToTop.jsx";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+import arrowdown from "../../../assets/icon/arrow-down.png";
 function NumberCard(props) {
   return (
     <VerticalFlex
@@ -103,6 +110,8 @@ function NumberCard(props) {
 export default function UX_D() {
   return (
     <Root>
+      <div id="back-to-top-anchor" />
+      <BackToTop />
       <VerticalFlex
         style={{
           height: 480,
@@ -116,12 +125,36 @@ export default function UX_D() {
           src={threePhone}
         ></img>
         <HorizontalFlex>
-          <div style={{ margin: "auto 30px" }}>Project Overview</div>
-          <div style={{ margin: "auto 30px" }}>Understanding the user</div>
-          <div style={{ margin: "auto 30px" }}>Starting the design</div>
-          <div style={{ margin: "auto 30px" }}>Refining the design</div>
+          <HashLink style={{ position: "relative" }} to="/work/ux#project">
+            <AnimatedSpan style={{ margin: "auto 30px", fontWeight: 700 }}>
+              Project Overview
+              <Slider></Slider>
+            </AnimatedSpan>
+          </HashLink>
+          <HashLink
+            style={{ position: "relative" }}
+            to="/work/ux#understanding"
+          >
+            <AnimatedSpan style={{ margin: "auto 30px", fontWeight: 700 }}>
+              Understanding the user
+              <Slider></Slider>
+            </AnimatedSpan>
+          </HashLink>
+          <HashLink style={{ position: "relative" }} to="/work/ux#starting">
+            <AnimatedSpan style={{ margin: "auto 30px", fontWeight: 700 }}>
+              Starting the design
+              <Slider></Slider>
+            </AnimatedSpan>
+          </HashLink>
+          <HashLink style={{ position: "relative" }} to="/work/ux#refining">
+            <AnimatedSpan style={{ margin: "auto 30px", fontWeight: 700 }}>
+              Refining the design
+              <Slider></Slider>
+            </AnimatedSpan>
+          </HashLink>
         </HorizontalFlex>
       </VerticalFlex>
+      <div id="project"></div>
       <VerticalFlex style={{ height: 840 }}>
         <MainTitle>- Project Overview -</MainTitle>
         <HorizontalFlex style={{ marginTop: 63 }}>
@@ -155,10 +188,9 @@ export default function UX_D() {
           </div>
         </HorizontalFlex>
       </VerticalFlex>
+      <div id="understanding"></div>
       <VerticalFlex style={{ backgroundColor: "#F4F4F4" }}>
-        <div style={{ fontSize: 24, fontWeight: 700, marginTop: 25 }}>
-          - Understanding the user -
-        </div>
+        <MainTitle>- Understanding the user -</MainTitle>
         <SubTitle>User research</SubTitle>
         <SubText>
           According to the research from animal medicines Australia (2019),
@@ -200,7 +232,7 @@ export default function UX_D() {
         </SubText>
         <PieChart />
         <SubTitle>Personas</SubTitle>
-        <HorizontalFlex style={{ marginTop: 200 }}>
+        <HorizontalFlex style={{ marginTop: 100 }}>
           <VerticalFlex
             style={{
               width: 320,
@@ -355,7 +387,12 @@ export default function UX_D() {
           goal is to compare the user experience of each competitor’s website
           and app.
         </SubText>
-        <Button variant="contained">Learn more</Button>
+        <MyButton
+          target="_blank"
+          href="https://docs.google.com/spreadsheets/d/18sOeNSQPb6JKpguz4mxadkUIUXKFQ1tH/edit?usp=sharing&ouid=100720946268957011614&rtpof=true&sd=true"
+        >
+          Learn more
+        </MyButton>
         <img
           alt=""
           style={{
@@ -367,8 +404,11 @@ export default function UX_D() {
           src={audit}
         ></img>
       </VerticalFlex>
+
       <VerticalFlex>
+        <div id="starting"></div>
         <MainTitle>- Starting the design -</MainTitle>
+
         <SubTitle>Information architecture</SubTitle>
         <img
           alt=""
@@ -443,7 +483,12 @@ export default function UX_D() {
               Each study took around 15-30 minutes remotely. Users were asked to
               order dry dog food on a low-fidelity prototype.
             </SubText>
-            <Button variant="contained">Learn more</Button>
+            <MyButton
+              target="_blank"
+              href="https://drive.google.com/file/d/1beXyLMAc6AVhtNkBjbFKZyxFZ-rs8fDA/view?usp=sharing"
+            >
+              Learn more
+            </MyButton>
           </VerticalFlex>
         </HorizontalFlex>
       </VerticalFlex>
@@ -588,9 +633,11 @@ export default function UX_D() {
         </HorizontalFlex>
       </VerticalFlex>
       <VerticalFlex>
+        <div id="refining"></div>
+        <MainTitle>- Refining the design -</MainTitle>
         <img
           alt=""
-          style={{ display: "block", width: 650, marginTop: 115 }}
+          style={{ display: "block", width: 650, marginTop: 40 }}
           src={app1}
         ></img>
         <img
@@ -598,12 +645,13 @@ export default function UX_D() {
           style={{ display: "block", width: 900, marginTop: 115 }}
           src={app2}
         ></img>
-        <Button
-          variant="contained"
-          style={{ marginTop: 46, padding: "10px 30px", fontSize: 14 }}
+        <MyButton
+          target="_blank"
+          href="https://www.figma.com/proto/P4fw3FRKiiV05zDwoBnNRe/Pet-Food-Delivery_new?page-id=0%3A1&node-id=1%3A27&viewport=241%2C48%2C0.2&scaling=scale-down&starting-point-node-id=1%3A27"
+          style={{ marginTop: 46 }}
         >
           View More
-        </Button>
+        </MyButton>
         <VerticalFlex style={{ background: "#E0E4FF", marginTop: 140 }}>
           <img alt="" style={{ display: "block", width: 880 }} src={app3}></img>
         </VerticalFlex>

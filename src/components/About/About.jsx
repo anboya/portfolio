@@ -6,6 +6,7 @@ import {
   SubTitle,
   SubText,
   MainTitle,
+  HoverSpan,
 } from "../Common/Base/Base";
 import { NavLink } from "react-router-dom";
 import avatar from "../../assets/image/avatar.png";
@@ -53,11 +54,12 @@ export default function About() {
             >
               Contact me at:
             </SubTitle>
-            <a
-              href="mailto:an.boya01@gmail.com"
-              style={{ color: "#E9168C", fontWeight: 500, fontSize: 18 }}
-            >
-              an.boya01@gmail.com
+            <a href="mailto:an.boya01@gmail.com">
+              <HoverSpan
+                style={{ color: "#E9168C", fontWeight: 500, fontSize: 18 }}
+              >
+                an.boya01@gmail.com
+              </HoverSpan>
             </a>
             <div style={{ color: "#E9168C", fontWeight: 500, fontSize: 18 }}>
               0416 971 392
@@ -81,12 +83,12 @@ export default function About() {
               teaching experience at a special school. Students in the class
               suffered from disabilities and many of them cannot communicate
               with others verbally, while a speech-generating device,{" "}
-              <a
-                target="_blank"
-                style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
-                href="https://lampwflapp.com"
-              >
-                LAMP (Language Acquisition through Motor Planning)
+              <a target="_blank" rel="noreferrer" href="https://lampwflapp.com">
+                <HoverSpan
+                  style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
+                >
+                  LAMP (Language Acquisition through Motor Planning)
+                </HoverSpan>
               </a>{" "}
               can help these students to express themselves. I was amazed by the
               great user experience design in this device and the immeasurable
@@ -95,11 +97,12 @@ export default function About() {
               that, I started to work as a UX design intern while doing
               self-paced study online. During that time, I finished my first
               user experience design project, a{" "}
-              <NavLink
-                style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
-                to="/work/ux"
-              >
-                pet food delivery app
+              <NavLink to="/work/ux">
+                <HoverSpan
+                  style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
+                >
+                  pet food delivery app
+                </HoverSpan>
               </NavLink>
               .
             </div>
@@ -134,8 +137,8 @@ export default function About() {
             alt=""
             style={{
               display: "block",
-              width: 228,
-              height: 253,
+              width: 266,
+              height: 295,
             }}
             src={more1}
           ></img>
@@ -143,9 +146,9 @@ export default function About() {
             alt=""
             style={{
               display: "block",
-              width: 336,
-              height: 253,
-              margin: "0 60px",
+              width: 392,
+              height: 295,
+              margin: "0 12px",
             }}
             src={more2}
           ></img>
@@ -153,8 +156,8 @@ export default function About() {
             alt=""
             style={{
               display: "block",
-              width: 204,
-              height: 253,
+              width: 238,
+              height: 295,
             }}
             src={more3}
           ></img>

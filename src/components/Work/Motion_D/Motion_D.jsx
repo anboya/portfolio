@@ -4,12 +4,13 @@ import {
   VerticalFlex,
   HorizontalFlex,
   SubText,
+  MyButton,
 } from "../../Common/Base/Base";
 import SubFooter from "../SubFooter/SubFooter";
 import motionbgd from "../../../assets/image/motionbgd.png";
 import Card from "../../Common/Card/Card";
-import { Button } from "@mui/material";
-export default function Logo_D() {
+
+export default function Motion_D() {
   return (
     <Root>
       <VerticalFlex>
@@ -67,9 +68,13 @@ export default function Logo_D() {
           because the target audiences are 50% male/female 18- to 30-year-old
           students and academic staff.
         </SubText>
-        <Button variant="contained" style={{ margin: "80px 0" }}>
+        <MyButton
+          target="_blank"
+          href="https://drive.google.com/file/d/13wsUG259rwovdDWTI-XE7RZbJFLHg-jt/view?usp=sharing"
+          style={{ margin: "80px 0" }}
+        >
           View the storyboards
-        </Button>
+        </MyButton>
 
         <iframe
           style={{ marginBottom: 200 }}
