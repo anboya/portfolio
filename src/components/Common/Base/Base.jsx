@@ -59,7 +59,11 @@ export const HoverSpan = styled("span")({
 });
 
 export const HoverSpanNoUnderline = styled("span")({
+  fontWeight: 500,
+  letterSpacing: 0.5,
+  color: "#7c7c7c",
   "&:hover": {
+    fontWeight: 700,
     color: "#E9168C",
   },
 });
@@ -101,7 +105,7 @@ export const HoverDiv = styled("div")({
   transition: "all 0.3s ease-out",
   overflow: "hidden",
   "&:hover": {
-    top: -20,
+    top: -10,
     boxShadow: "8px 5px 4px rgba(0, 0, 0, 0.25)",
   },
 });

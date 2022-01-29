@@ -12,7 +12,12 @@ export function WorkCard(props) {
   return (
     <Card
       variant="outlined"
-      sx={{ width: 362, backgroundColor: { backgroundColor }, border: "none" }}
+      sx={{
+        minWidth: 362,
+        width: 362,
+        backgroundColor: { backgroundColor },
+        border: "none",
+      }}
     >
       <CardContent style={{ marginLeft: 4 }}>
         <Typography
@@ -62,7 +67,7 @@ export function WorkCard(props) {
 export default function Work() {
   return (
     <div className="work">
-      <div style={{ height: 460, paddingTop: 150 }}>
+      <div style={{ height: 460, paddingTop: 125 }}>
         <h2
           style={{
             textAlign: "center",

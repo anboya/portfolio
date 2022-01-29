@@ -44,10 +44,10 @@ export default function About() {
                 marginTop: 30,
               }}
             >
-              I am a UX designer and currently live in Melbourne. As a life-long
-              learner of design, I enjoy finding and solving problems through
-              the design process. I believe that good design can reach a perfect
-              balance between aesthetics and utility.
+              I am a UX designer and currently living in Melbourne. As a
+              life-long learner of design, I enjoy finding and solving problems
+              through the design process. I believe that a good design can reach
+              a perfect balance between aesthetics and utility.
             </SubText>
             <SubTitle
               style={{ marginTop: 50, textAlign: "left", marginBottom: 10 }}
@@ -67,7 +67,7 @@ export default function About() {
           </VerticalFlex>
         </HorizontalFlex>
         <HorizontalFlex style={{ marginTop: 150 }}>
-          <VerticalFlex style={{ width: 390, marginRight: 120 }}>
+          <VerticalFlex style={{ width: 390, marginRight: 130 }}>
             <div style={{ fontSize: 24, fontWeight: 700, width: 390 }}>
               It all started with a LAMP
             </div>
@@ -81,8 +81,8 @@ export default function About() {
             >
               My interest in user experience design initially comes from my
               teaching experience at a special school. Students in the class
-              suffered from disabilities and many of them cannot communicate
-              with others verbally, while a speech-generating device,{" "}
+              suffered from disabilities and many of them can’t communicate with
+              others verbally, while a speech-generating device,{" "}
               <a target="_blank" rel="noreferrer" href="https://lampwflapp.com">
                 <HoverSpan
                   style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
@@ -92,7 +92,7 @@ export default function About() {
               </a>{" "}
               can help these students to express themselves. I was amazed by the
               great user experience design in this device and the immeasurable
-              and positive impact it brings to people’s life. I wish that I
+              and positive impact it brings to people’s lives. I wish that I
               could be part of the design that helps and empowers others. After
               that, I started to work as a UX design intern while doing
               self-paced study online. During that time, I finished my first
@@ -104,18 +104,29 @@ export default function About() {
                   pet food delivery app
                 </HoverSpan>
               </NavLink>
-              .
             </div>
           </VerticalFlex>
-          <img
-            alt=""
-            style={{
-              display: "block",
-              width: 400,
-              height: 557,
-            }}
-            src={lamp}
-          ></img>
+          <VerticalFlex style={{ width: 400 }}>
+            <img
+              alt=""
+              style={{
+                display: "block",
+                width: 400,
+                height: 557,
+              }}
+              src={lamp}
+            ></img>
+            <div
+              style={{
+                fontStyle: "italic",
+                color: "#5e5e5e",
+                fontSize: 16,
+                textAlign: "left",
+              }}
+            >
+              A boy is using his LAMP device. Image by Boya
+            </div>
+          </VerticalFlex>
         </HorizontalFlex>
         <MainTitle>More about me</MainTitle>
         <div
@@ -129,38 +140,80 @@ export default function About() {
           In my free time, I love doing some voluntary work related to art and
           education in the local community. I’m an animal lover and love
           drawing, I draw comics to record my life with my pets (a rabbit and a
-          guinea pig). When I’m not creating, you can find me walking outdoors
-          and getting more inspiration.
+          guinea pig). When I’m not creating artwork, you can find me walking
+          outdoors and getting more inspiration.
         </div>
         <HorizontalFlex style={{ margin: "50px 0 150px 0" }}>
-          <img
-            alt=""
-            style={{
-              display: "block",
-              width: 266,
-              height: 295,
-            }}
-            src={more1}
-          ></img>
-          <img
-            alt=""
-            style={{
-              display: "block",
-              width: 392,
-              height: 295,
-              margin: "0 12px",
-            }}
-            src={more2}
-          ></img>
-          <img
-            alt=""
-            style={{
-              display: "block",
-              width: 238,
-              height: 295,
-            }}
-            src={more3}
-          ></img>
+          <VerticalFlex style={{ width: 266, alignItems: "flex-start" }}>
+            <img
+              alt=""
+              style={{
+                display: "block",
+                width: 266,
+                height: 295,
+              }}
+              src={more1}
+            ></img>
+            <div
+              style={{
+                fontStyle: "italic",
+                color: "#5e5e5e",
+                fontSize: 16,
+                textAlign: "left",
+                marginTop: 5,
+              }}
+            >
+              Hand drawn tote bag
+            </div>
+          </VerticalFlex>
+          <VerticalFlex
+            style={{ width: 392, margin: "0 12px", alignItems: "flex-start" }}
+          >
+            <img
+              alt=""
+              style={{
+                display: "block",
+                width: 392,
+                height: 295,
+              }}
+              src={more2}
+            ></img>
+            <div
+              style={{
+                fontStyle: "italic",
+                color: "#5e5e5e",
+                fontSize: 16,
+                textAlign: "left",
+                marginTop: 5,
+              }}
+            >
+              Graphite drawing
+            </div>
+          </VerticalFlex>
+          <VerticalFlex style={{ width: 238, alignItems: "flex-start" }} s>
+            <img
+              alt=""
+              style={{
+                display: "block",
+                width: 238,
+                height: 295,
+              }}
+              src={more3}
+            ></img>
+            <div
+              style={{
+                fontStyle: "italic",
+                color: "#5e5e5e",
+                fontSize: 16,
+                textAlign: "left",
+                marginTop: 5,
+                lineHeight: "20px",
+              }}
+            >
+              My mentee and I attended the art exhibition of the Future
+              Foundations Creative Mentoring Program
+            </div>
+          </VerticalFlex>
         </HorizontalFlex>
       </VerticalFlex>
     </Root>

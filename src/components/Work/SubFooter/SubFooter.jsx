@@ -19,6 +19,7 @@ export function WorkCard(props) {
     <Card
       variant="outlined"
       sx={{
+        minWidth: 260,
         width: 260,
         backgroundColor: { backgroundColor },
         border: "none",

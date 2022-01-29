@@ -660,9 +660,9 @@ export default function UX_D() {
           needs of potential users. A quote from a book I read exemplifies this
           process perfectly, "When you convert nouns into verbs of your
           intentions, you will find what you really care about.” In addition, I
-          have learned that not to interfere with the judgment of the
-          interviewees with my assumptions. With open-ended questions, you may
-          foster independent thinking and get more unexpected answers.
+          have learned not to interfere with the judgment of the interviewees
+          with my assumptions. With open-ended questions, I may foster
+          independent thinking and get more unexpected answers.
         </SubText>
         <SubFooter number={1}></SubFooter>
       </VerticalFlex>

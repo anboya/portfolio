@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import web_icon from "../../assets/icon/Logo_pink.png";
+import web_icon from "../../assets/icon/Logo_pink.gif";
 import { HoverSpanNoUnderline } from "../Common/Base/Base";
 export default function Header() {
   return (
