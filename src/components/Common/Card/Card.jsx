@@ -2,7 +2,7 @@ import React from "react";
 import { VerticalFlex } from "../Base/Base";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import BuildOutlinedIcon from "@mui/icons-material/BuildOutlined";
+import toolImg from "../../../assets/icon/tool.png";
 export default function Card(props) {
   return (
     <VerticalFlex
@@ -23,9 +23,12 @@ export default function Card(props) {
       ) : props.icon === "Time" ? (
         <AccessTimeIcon fontSize="large" style={{ width: 50, height: 50 }} />
       ) : (
-        <BuildOutlinedIcon fontSize="large" style={{ width: 50, height: 50 }} />
+        <img
+          alt=""
+          src={toolImg}
+          style={{ width: 50, height: 50, display: "block" }}
+        />
       )}
-
       <div
         style={{
           fontWeight: 700,

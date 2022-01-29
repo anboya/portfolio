@@ -5,20 +5,6 @@ import Fab from "@mui/material/Fab";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Zoom from "@mui/material/Zoom";
 
-export default (props) => {
-  return (
-    <ScrollTop {...props}>
-      <Fab
-        style={{ backgroundColor: "#E9168C", color: "white" }}
-        size="small"
-        aria-label="scroll back to top"
-      >
-        <KeyboardArrowUpIcon />
-      </Fab>
-    </ScrollTop>
-  );
-};
-
 function ScrollTop(props) {
   const { children, window } = props;
   // Note that you normally won't need to set the window ref as useScrollTrigger
@@ -53,5 +39,18 @@ function ScrollTop(props) {
         {children}
       </Box>
     </Zoom>
+  );
+}
+export default function BackToTop(props) {
+  return (
+    <ScrollTop {...props}>
+      <Fab
+        style={{ backgroundColor: "#E9168C", color: "white" }}
+        size="large"
+        aria-label="scroll back to top"
+      >
+        <KeyboardArrowUpIcon />
+      </Fab>
+    </ScrollTop>
   );
 }

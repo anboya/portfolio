@@ -8,15 +8,10 @@ import {
   SubText,
   MainTitle,
   MyButton,
-  HoverSpan,
   AnimatedSpan,
   Slider,
 } from "../../Common/Base/Base";
 import Card from "../../Common/Card/Card";
-import LooksOneIcon from "@mui/icons-material/LooksOne";
-import LooksTwoIcon from "@mui/icons-material/LooksTwo";
-import Looks3Icon from "@mui/icons-material/Looks3";
-import Looks4Icon from "@mui/icons-material/Looks4";
 import PieChart from "../../Work/UX_D/PieChart/PieChart";
 import persona1 from "../../../assets/image/persona1.png";
 import persona2 from "../../../assets/image/persona2.png";
@@ -39,9 +34,11 @@ import app2 from "../../../assets/image/app2.png";
 import app3 from "../../../assets/image/app3.png";
 import SubFooter from "../SubFooter/SubFooter";
 import { HashLink } from "react-router-hash-link";
+import numberOne from "../../../assets/icon/numberOne.png";
+import numberTwo from "../../../assets/icon/numberTwo.png";
+import numberThree from "../../../assets/icon/numebrThree.png";
+import numberFour from "../../../assets/icon/numberFour.png";
 import BackToTop from "../../Common/BackToTop/BackToTop.jsx";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-import arrowdown from "../../../assets/icon/arrow-down.png";
 function NumberCard(props) {
   return (
     <VerticalFlex
@@ -58,28 +55,28 @@ function NumberCard(props) {
       }}
     >
       {props.number === 1 ? (
-        <LooksOneIcon
-          fontSize="large"
-          color="primary"
-          style={{ width: 50, height: 50 }}
+        <img
+          alt=""
+          src={numberOne}
+          style={{ width: 50, height: 50, display: "block" }}
         />
       ) : props.number === 2 ? (
-        <LooksTwoIcon
-          fontSize="large"
-          color="primary"
-          style={{ width: 50, height: 50 }}
+        <img
+          alt=""
+          src={numberTwo}
+          style={{ width: 50, height: 50, display: "block" }}
         />
       ) : props.number === 3 ? (
-        <Looks3Icon
-          fontSize="large"
-          color="primary"
-          style={{ width: 50, height: 50 }}
+        <img
+          alt=""
+          src={numberThree}
+          style={{ width: 50, height: 50, display: "block" }}
         />
       ) : (
-        <Looks4Icon
-          fontSize="large"
-          color="primary"
-          style={{ width: 50, height: 50 }}
+        <img
+          alt=""
+          src={numberFour}
+          style={{ width: 50, height: 50, display: "block" }}
         />
       )}
 
@@ -96,7 +93,7 @@ function NumberCard(props) {
       <div
         style={{
           fontSize: 14,
-          marginTop: props.number % 2 === 0 ? 24 : 44,
+          marginTop: props.number % 2 === 0 ? 19 : 44,
           width: 200,
           textAlign: "center",
         }}

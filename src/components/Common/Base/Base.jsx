@@ -1,6 +1,4 @@
-import { fontWeight, styled } from "@mui/system";
-import Typography from "@mui/material/Typography";
-import { hover } from "@testing-library/user-event/dist/hover";
+import { styled } from "@mui/system";
 export const Root = styled("div")({
   width: "100%",
   height: "100%",
@@ -81,7 +79,7 @@ export const Slider = styled("span")({
   left: 0,
   top: "100%",
   margin: "0 auto",
-  height: "2px",
+  height: "1px",
   backgroundColor: "#000",
   width: "0%",
   transition: "width 0.3s ease",
@@ -96,13 +94,14 @@ export const HoverImgMask = styled("img")({
   },
 });
 
-export const Mask = styled("div")({
-  position: "absolute",
-  top: -315,
-  left: 0,
-  width: 260,
-  height: 315,
-  zIndex: 2,
-  backgroundColor: "rgba(82, 82, 82, 0.54)",
-  borderRadius: "0 0 8px 8px ",
+export const HoverDiv = styled("div")({
+  position: "relative",
+  top: 0,
+  borderRadius: "10px ",
+  transition: "all 0.3s ease-out",
+  overflow: "hidden",
+  "&:hover": {
+    top: -20,
+    boxShadow: "8px 5px 4px rgba(0, 0, 0, 0.25)",
+  },
 });
