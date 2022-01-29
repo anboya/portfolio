@@ -2,7 +2,7 @@ import React from "react";
 import { VerticalFlex } from "../Base/Base";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import toolImg from "../../../assets/icon/tool.png";
+import toolImg from "../../../assets/icon/Tool.png";
 export default function Card(props) {
   return (
     <VerticalFlex
