@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9d1802a8.css",
-    "main.js": "/portfolio/static/js/main.d528e226.js",
+    "main.css": "/portfolio/static/css/main.70c44811.css",
+    "main.js": "/portfolio/static/js/main.0b0a1fb3.js",
     "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
     "static/media/bigbowl3.png": "/portfolio/static/media/bigbowl3.1a1abd9f4acbca311992.png",
     "static/media/bigbowl1.png": "/portfolio/static/media/bigbowl1.90cbcc2556320f4532de.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.791ff030e75cde930ad5.png",
+    "static/media/usability.gif": "/portfolio/static/media/usability.a3a567cb2af9052010bb.gif",
     "static/media/motionbgd.png": "/portfolio/static/media/motionbgd.9020c650b9b9fe04db42.png",
     "static/media/userflow.png": "/portfolio/static/media/userflow.4a8b8e85ff5dcd262a5c.png",
     "static/media/wireframes.png": "/portfolio/static/media/wireframes.8c528755abb735307201.png",
     "static/media/valueproposition1.png": "/portfolio/static/media/valueproposition1.d910861b139110bf713f.png",
     "static/media/valueproposition2.png": "/portfolio/static/media/valueproposition2.0dc5a13f9ddc658aabc6.png",
     "static/media/lamp.png": "/portfolio/static/media/lamp.3e06a991321714d0fc98.png",
-    "static/media/avatar.png": "/portfolio/static/media/avatar.47e3ef0aad50c4a7c37a.png",
     "static/media/more2.png": "/portfolio/static/media/more2.c96df8e473b267cc5487.png",
     "static/media/UX_Logo.png": "/portfolio/static/media/UX_Logo.a53116d1cc0bbd08161f.png",
     "static/media/UX_Motion.png": "/portfolio/static/media/UX_Motion.50587fdfae08a7b31f99.png",
@@ -19,6 +20,7 @@
     "static/media/more1.png": "/portfolio/static/media/more1.6c1666d25629c31a2bc9.png",
     "static/media/digital.png": "/portfolio/static/media/digital.5129d74d55458dd48692.png",
     "static/media/app3.png": "/portfolio/static/media/app3.63945299de1f59edf5c6.png",
+    "static/media/userjourney01.jpg": "/portfolio/static/media/userjourney01.798aa1aa9eb0076dd6d8.jpg",
     "static/media/more3.png": "/portfolio/static/media/more3.e68d535c24aa0bb4b9f9.png",
     "static/media/bigbowl2.png": "/portfolio/static/media/bigbowl2.7ea1743b1cb3ea3ea758.png",
     "static/media/submenuimg3.png": "/portfolio/static/media/submenuimg3.7692daf37818baa8bee6.png",
@@ -26,13 +28,12 @@
     "static/media/submenuimg2.png": "/portfolio/static/media/submenuimg2.e3707c453b228865619f.png",
     "static/media/app1.png": "/portfolio/static/media/app1.543a9958b3f032e9fd6c.png",
     "static/media/UX_Video.png": "/portfolio/static/media/UX_Video.17892f527f12ce2e1c16.png",
+    "static/media/userjourney02.png": "/portfolio/static/media/userjourney02.e547b4d060507a906964.png",
     "static/media/audit.png": "/portfolio/static/media/audit.cab6466fe890aa8b9435.png",
     "static/media/app2.png": "/portfolio/static/media/app2.94ffd27a2629aac99cd9.png",
-    "static/media/userjourney.png": "/portfolio/static/media/userjourney.836545a3044549491bc7.png",
     "static/media/threephones.png": "/portfolio/static/media/threephones.3880f00f0063458ead35.png",
     "static/media/Itemdetails.png": "/portfolio/static/media/Itemdetails.0ddc9ba8fd409367f207.png",
     "static/media/ordercompleted.png": "/portfolio/static/media/ordercompleted.04d4c489199247e3f90b.png",
-    "static/media/usability.png": "/portfolio/static/media/usability.4ec7bab81e66c0a3eb1c.png",
     "static/media/submenuimg4.png": "/portfolio/static/media/submenuimg4.fc40e6887daaf7be97be.png",
     "static/media/Logo_pink.gif": "/portfolio/static/media/Logo_pink.7f1fab076e035482fb8c.gif",
     "static/media/UX_Pet.png": "/portfolio/static/media/UX_Pet.3ae5947313feb928bc08.png",
@@ -48,12 +49,12 @@
     "static/media/numberTwo.png": "/portfolio/static/media/numberTwo.39819994b48c7da71853.png",
     "static/media/numberFour.png": "/portfolio/static/media/numberFour.94e9f5deb2a12bb9e866.png",
     "index.html": "/portfolio/index.html",
-    "main.9d1802a8.css.map": "/portfolio/static/css/main.9d1802a8.css.map",
-    "main.d528e226.js.map": "/portfolio/static/js/main.d528e226.js.map",
+    "main.70c44811.css.map": "/portfolio/static/css/main.70c44811.css.map",
+    "main.0b0a1fb3.js.map": "/portfolio/static/js/main.0b0a1fb3.js.map",
     "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1802a8.css",
-    "static/js/main.d528e226.js"
+    "static/css/main.70c44811.css",
+    "static/js/main.0b0a1fb3.js"
   ]
 }
