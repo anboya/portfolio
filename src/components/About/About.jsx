@@ -23,9 +23,11 @@ export default function About() {
             alt=""
             style={{
               display: "block",
-              width: 282,
+              width: 461,
               height: 346,
-              marginRight: 180,
+              marginRight: 60,
+              borderRadius: 10,
+              marginTop: 20,
             }}
             src={avatar}
           ></img>
@@ -67,7 +69,7 @@ export default function About() {
           </VerticalFlex>
         </HorizontalFlex>
         <HorizontalFlex style={{ marginTop: 150 }}>
-          <VerticalFlex style={{ width: 390, marginRight: 130 }}>
+          <VerticalFlex style={{ width: 390, marginRight: 180 }}>
             <div style={{ fontSize: 24, fontWeight: 700, width: 390 }}>
               It all started with a LAMP
             </div>

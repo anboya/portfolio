@@ -23,12 +23,8 @@ export default function Header() {
           fontWeight: 600,
         }}
       >
-        <NavLink to="/work">
-          <HoverSpanNoUnderline>WORK</HoverSpanNoUnderline>
-        </NavLink>
-        <NavLink to="/about">
-          <HoverSpanNoUnderline>ABOUT</HoverSpanNoUnderline>
-        </NavLink>
+        <NavLink to="/work">WORK</NavLink>
+        <NavLink to="/about">ABOUT</NavLink>
         <a href="" download="Boya An.pdf">
           <HoverSpanNoUnderline>RESUME</HoverSpanNoUnderline>
         </a>

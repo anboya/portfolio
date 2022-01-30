@@ -17,13 +17,14 @@ import persona1 from "../../../assets/image/persona1.png";
 import persona2 from "../../../assets/image/persona2.png";
 import valueproposition1 from "../../../assets/image/valueproposition1.png";
 import valueproposition2 from "../../../assets/image/valueproposition2.png";
-import userjourney from "../../../assets/image/userjourney.png";
+// import userjourney01 from "../../../assets/image/userjourney01.png";
+// import userjourney02 from "../../../assets/image/userjourney02.png";
 import audit from "../../../assets/image/audit.png";
 import architecture from "../../../assets/image/architecture.png";
 import userflow from "../../../assets/image/userflow.png";
 import wireframes from "../../../assets/image/wireframes.png";
 import digital from "../../../assets/image/digital.png";
-import usability from "../../../assets/image/usability.png";
+import usability from "../../../assets/image/usability.gif";
 import Itemdetails from "../../../assets/image/Itemdetails.png";
 import ordercompleted from "../../../assets/image/ordercompleted.png";
 import Andy from "../../../assets/image/Andy.png";
@@ -39,6 +40,13 @@ import numberTwo from "../../../assets/icon/numberTwo.png";
 import numberThree from "../../../assets/icon/numebrThree.png";
 import numberFour from "../../../assets/icon/numberFour.png";
 import BackToTop from "../../Common/BackToTop/BackToTop.jsx";
+import SimpleImageSlider from "react-simple-image-slider";
+
+const images = [
+  { url: require("../../../assets/image/userjourney01.jpg") },
+  { url: require("../../../assets/image/userjourney02.png") },
+];
+
 function NumberCard(props) {
   return (
     <VerticalFlex
@@ -347,14 +355,16 @@ export default function UX_D() {
           </VerticalFlex>
         </HorizontalFlex>
         <SubTitle>User journey maps</SubTitle>
-        <img
-          alt=""
-          style={{
-            display: "block",
-            width: 950,
-          }}
-          src={userjourney}
-        ></img>
+        <VerticalFlex>
+          <SimpleImageSlider
+            width={950}
+            height={540}
+            images={images}
+            showBullets={true}
+            showNavs={true}
+            loop={false}
+          />
+        </VerticalFlex>
         <SubTitle>Value proposition</SubTitle>
         <HorizontalFlex>
           <img
@@ -454,10 +464,11 @@ export default function UX_D() {
             style={{
               display: "block",
               width: 500,
+              marginRight: 50,
             }}
             src={usability}
           ></img>
-          <VerticalFlex style={{ width: 360, marginLeft: 48 }}>
+          <VerticalFlex style={{ width: 360, marginLeft: 48, marginTop: 50 }}>
             <SubTitle style={{ marginTop: 0, marginBottom: 20 }}>
               Usability studies
             </SubTitle>
@@ -467,7 +478,7 @@ export default function UX_D() {
                 textAlign: "left",
                 fontSize: 16,
                 // lineHeight: "120%",
-                marginBottom: 30,
+                marginBottom: 80,
               }}
             >
               To create a product that meets the users’ real needs, I conducted

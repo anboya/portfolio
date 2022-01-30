@@ -51,13 +51,7 @@ export function WorkCard(props) {
           }}
         >
           <HoverDiv>
-            <CardMedia
-              component="img"
-              height="240"
-              width="362"
-              image={img}
-              alt=""
-            />
+            <CardMedia component="img" height="240" width="362" image={img} />
           </HoverDiv>
         </div>
       </NavLink>
