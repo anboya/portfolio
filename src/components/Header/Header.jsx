@@ -6,8 +6,8 @@ import { HoverSpanNoUnderline } from "../Common/Base/Base";
 export default function Header() {
   return (
     <div className="header" style={{ display: "flex" }}>
-      <NavLink to="/work" style={{ marginLeft: 100, paddingTop: 20 }}>
-        <img style={{ width: 150 }} src={web_icon} alt="" />
+      <NavLink to="/work" style={{ marginLeft: 100, paddingTop: 30 }}>
+        <img style={{ width: 200 }} src={web_icon} alt="" />
       </NavLink>
       <div style={{ flex: 1 }}></div>
       <div

@@ -16,6 +16,7 @@ export default function Card(props) {
         paddingTop: 34,
         justifyContent: "stretch",
         margin: "auto 50px",
+        fontSize: 16,
       }}
     >
       {props.icon === "User" ? (
@@ -32,7 +33,7 @@ export default function Card(props) {
       <div
         style={{
           fontWeight: 700,
-          fontSize: 18,
+          fontSize: 16,
           marginTop: 15,
           textAlign: "center",
         }}

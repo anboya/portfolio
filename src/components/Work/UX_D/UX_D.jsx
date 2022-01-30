@@ -372,6 +372,7 @@ export default function UX_D() {
             style={{
               display: "block",
               width: 480,
+              height: 330,
               margin: "0 10px",
             }}
             src={valueproposition1}
@@ -381,6 +382,7 @@ export default function UX_D() {
             style={{
               display: "block",
               width: 480,
+              height: 330,
               margin: "0 10px",
             }}
             src={valueproposition2}
@@ -464,6 +466,7 @@ export default function UX_D() {
             style={{
               display: "block",
               width: 500,
+              height: 662,
               marginRight: 50,
             }}
             src={usability}

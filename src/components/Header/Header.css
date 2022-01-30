@@ -1,5 +1,6 @@
 .header .active {
   color: #e9168c !important;
+  font-weight: 700 !important;
 }
 .header .links > a {
   font-weight: 500;

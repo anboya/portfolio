@@ -56,7 +56,10 @@ export default function Motion_D() {
         <HorizontalFlex style={{ marginTop: 63 }}>
           <Card icon={"User"} title="Motion graphics design" />
           <Card icon={"Time"} title="2 weeks" />
-          <Card icon={"Tool"} title="Illustrator After Effects" />
+          <Card
+            icon={"Tool"}
+            title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Illustrator &nbsp;&nbsp; After Effects"
+          />
         </HorizontalFlex>
         <SubText
           style={{
