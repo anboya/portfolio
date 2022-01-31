@@ -130,7 +130,7 @@ export default function About() {
             </div>
           </VerticalFlex>
         </HorizontalFlex>
-        <VerticalFlex style={{ backgroundColor: "#F2F2F2" }}>
+        <VerticalFlex style={{ backgroundColor: "#F2F2F2", marginTop: 50 }}>
           <MainTitle>More about me</MainTitle>
           <div
             style={{
@@ -142,9 +142,21 @@ export default function About() {
           >
             In my free time, I love doing some voluntary work related to art and
             education in the local community. I’m an animal lover and love
-            drawing, I draw comics to record my life with my pets (a rabbit and
-            a guinea pig). When I’m not creating artwork, you can find me
-            walking outdoors and getting more inspiration.
+            drawing, I draw{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://anboya.github.io/piggybunny/#/comics"
+            >
+              <HoverSpan
+                style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
+              >
+                comics
+              </HoverSpan>
+            </a>{" "}
+            to record my life with my pets (a rabbit and a guinea pig). When I’m
+            not creating artwork, you can find me walking outdoors and getting
+            more inspiration.
           </div>
           <HorizontalFlex style={{ margin: "50px 0 150px 0" }}>
             <VerticalFlex style={{ width: 266, alignItems: "flex-start" }}>
