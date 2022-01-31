@@ -1,6 +1,7 @@
 import "./App.css";
 import { Route, Navigate, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Work from "./components/Work/Work";
 import About from "./components/About/About";
 import UX_D from "./components/Work/UX_D/UX_D";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/" element={<Navigate replace to="/work" />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

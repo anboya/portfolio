@@ -600,7 +600,7 @@ export default function UX_D() {
                   “Can I check my order after payment succeeded?”
                 </div>
                 <div style={{ fontSize: 14, marginRight: 220, marginTop: 10 }}>
-                  — Andy, Victoria
+                  — Daniel, Victoria
                 </div>
               </VerticalFlex>
             </HorizontalFlex>

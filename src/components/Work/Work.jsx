@@ -88,7 +88,7 @@ export default function Work() {
         </p>
       </div>
       <div
-        style={{ backgroundColor: "#E5E5E5", height: 1100, padding: "0 200px" }}
+        style={{ backgroundColor: "#F2F2F2", height: 1100, padding: "0 200px" }}
       >
         <div style={{ display: "flex", padding: "50px 0" }}>
           <div style={{ flex: 1 }}></div>
@@ -100,7 +100,7 @@ export default function Work() {
             nav="ux"
             backgroundColor="transparent"
           />
-          <div style={{ width: 50 }}></div>
+          <div style={{ width: 100 }}></div>
           <WorkCard
             title1="02 - LOGO DESIGN"
             title2="Big Bowl"
@@ -121,7 +121,7 @@ export default function Work() {
             nav="motion"
             backgroundColor="transparent"
           />
-          <div style={{ width: 50 }}></div>
+          <div style={{ width: 100 }}></div>
           <WorkCard
             title1="04 - VEDIO EDITING"
             title2="Daydreamer"

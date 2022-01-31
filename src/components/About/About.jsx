@@ -130,93 +130,95 @@ export default function About() {
             </div>
           </VerticalFlex>
         </HorizontalFlex>
-        <MainTitle>More about me</MainTitle>
-        <div
-          style={{
-            fontWeight: 500,
-            fontSize: 16,
-            marginTop: 50,
-            width: 920,
-          }}
-        >
-          In my free time, I love doing some voluntary work related to art and
-          education in the local community. I’m an animal lover and love
-          drawing, I draw comics to record my life with my pets (a rabbit and a
-          guinea pig). When I’m not creating artwork, you can find me walking
-          outdoors and getting more inspiration.
-        </div>
-        <HorizontalFlex style={{ margin: "50px 0 150px 0" }}>
-          <VerticalFlex style={{ width: 266, alignItems: "flex-start" }}>
-            <img
-              alt=""
-              style={{
-                display: "block",
-                width: 266,
-                height: 295,
-              }}
-              src={more1}
-            ></img>
-            <div
-              style={{
-                fontStyle: "italic",
-                color: "#5e5e5e",
-                fontSize: 16,
-                textAlign: "left",
-                marginTop: 5,
-              }}
-            >
-              Hand drawn tote bag
-            </div>
-          </VerticalFlex>
-          <VerticalFlex
-            style={{ width: 392, margin: "0 12px", alignItems: "flex-start" }}
+        <VerticalFlex style={{ backgroundColor: "#F2F2F2" }}>
+          <MainTitle>More about me</MainTitle>
+          <div
+            style={{
+              fontWeight: 500,
+              fontSize: 16,
+              marginTop: 50,
+              width: 920,
+            }}
           >
-            <img
-              alt=""
-              style={{
-                display: "block",
-                width: 392,
-                height: 295,
-              }}
-              src={more2}
-            ></img>
-            <div
-              style={{
-                fontStyle: "italic",
-                color: "#5e5e5e",
-                fontSize: 16,
-                textAlign: "left",
-                marginTop: 5,
-              }}
+            In my free time, I love doing some voluntary work related to art and
+            education in the local community. I’m an animal lover and love
+            drawing, I draw comics to record my life with my pets (a rabbit and
+            a guinea pig). When I’m not creating artwork, you can find me
+            walking outdoors and getting more inspiration.
+          </div>
+          <HorizontalFlex style={{ margin: "50px 0 150px 0" }}>
+            <VerticalFlex style={{ width: 266, alignItems: "flex-start" }}>
+              <img
+                alt=""
+                style={{
+                  display: "block",
+                  width: 266,
+                  height: 295,
+                }}
+                src={more1}
+              ></img>
+              <div
+                style={{
+                  fontStyle: "italic",
+                  color: "#5e5e5e",
+                  fontSize: 16,
+                  textAlign: "left",
+                  marginTop: 5,
+                }}
+              >
+                Hand drawn tote bag
+              </div>
+            </VerticalFlex>
+            <VerticalFlex
+              style={{ width: 392, margin: "0 12px", alignItems: "flex-start" }}
             >
-              Graphite drawing
-            </div>
-          </VerticalFlex>
-          <VerticalFlex style={{ width: 238, alignItems: "flex-start" }} s>
-            <img
-              alt=""
-              style={{
-                display: "block",
-                width: 238,
-                height: 295,
-              }}
-              src={more3}
-            ></img>
-            <div
-              style={{
-                fontStyle: "italic",
-                color: "#5e5e5e",
-                fontSize: 16,
-                textAlign: "left",
-                marginTop: 5,
-                lineHeight: "20px",
-              }}
-            >
-              My mentee and I attended the art exhibition of the Future
-              Foundations Creative Mentoring Program
-            </div>
-          </VerticalFlex>
-        </HorizontalFlex>
+              <img
+                alt=""
+                style={{
+                  display: "block",
+                  width: 392,
+                  height: 295,
+                }}
+                src={more2}
+              ></img>
+              <div
+                style={{
+                  fontStyle: "italic",
+                  color: "#5e5e5e",
+                  fontSize: 16,
+                  textAlign: "left",
+                  marginTop: 5,
+                }}
+              >
+                Graphite drawing
+              </div>
+            </VerticalFlex>
+            <VerticalFlex style={{ width: 238, alignItems: "flex-start" }} s>
+              <img
+                alt=""
+                style={{
+                  display: "block",
+                  width: 238,
+                  height: 295,
+                }}
+                src={more3}
+              ></img>
+              <div
+                style={{
+                  fontStyle: "italic",
+                  color: "#5e5e5e",
+                  fontSize: 16,
+                  textAlign: "left",
+                  marginTop: 5,
+                  lineHeight: "20px",
+                }}
+              >
+                My mentee and I attended the art exhibition of the Future
+                Foundations Creative Mentoring Program
+              </div>
+            </VerticalFlex>
+          </HorizontalFlex>
+        </VerticalFlex>
       </VerticalFlex>
     </Root>
   );
