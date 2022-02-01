@@ -28,6 +28,7 @@ export default function Header() {
         <a
           href="https://drive.google.com/file/d/1jtzpmKLn2UQxcNR6EKYhOUQwz3E8g6_K/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
         >
           <HoverSpanNoUnderline>RESUME</HoverSpanNoUnderline>
         </a>
