@@ -57,7 +57,7 @@ function NumberCard(props) {
         border: "1px solid #DBDBDB",
         boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
         borderRadius: "3px",
-        paddingTop: 38,
+        paddingTop: 25,
         justifyContent: "stretch",
         margin: "auto 20px",
       }}
@@ -100,7 +100,7 @@ function NumberCard(props) {
       </div>
       <div
         style={{
-          fontSize: 14,
+          fontSize: 13,
           marginTop: props.number % 2 === 0 ? 19 : 44,
           width: 200,
           textAlign: "center",
@@ -172,9 +172,8 @@ export default function UX_D() {
             marginTop: 100,
           }}
         >
-          The Pet food delivery app is a mobile app that allows users to order
-          pet food online and schedule the delivery time. Our target users are
-          pet owners across Australia.
+          Pet food delivery delays cause many inconveniences for pet owners,
+          especially when there is no left pet food.
         </SubText>
         <HorizontalFlex style={{ marginTop: 60 }}>
           <div style={{ width: 335 }}>
@@ -198,10 +197,10 @@ export default function UX_D() {
         <MainTitle>- Understanding the user -</MainTitle>
         <SubTitle>User research</SubTitle>
         <SubText>
-          According to the research from animal medicines Australia (2019),
-          almost two-thirds of Australian households have a pet. The Australian
-          pet food market is projected to witness a compound annual growth
-          rate (CAGR) of 2.7% from 2021 to 2025 (Mordor intelligence, 2020).  
+          According to animal medicines Australia (2019) research, almost
+          two-thirds of Australian households have a pet. The Australian pet
+          food market has a compound annual growth rate (CAGR) of 2.7% from 2021
+          to 2025 (Mordor Intelligence, 2020).    
         </SubText>
 
         <SubTitle>Pain points</SubTitle>
@@ -214,7 +213,7 @@ export default function UX_D() {
           <NumberCard
             number={2}
             title="Incomplete product information"
-            text="Some participants had bad online shopping experience. It is not convincing for them to shop online just by seeing the product images."
+            text="Some participants had terrible online shopping experiences. Therefore, it is not convincing for them to shop online just by seeing the product images."
           />
           <NumberCard
             number={3}
@@ -230,10 +229,10 @@ export default function UX_D() {
         <SubTitle>Survey sample composition</SubTitle>
         <SubText>
           I conducted one-on-one online interviews with 12 participants for two
-          days. The participants are between the age of 21-39 who reside in
-          metropolitan and suburb areas in Sydney and Melbourne. Some of them
-          only own one pet and some own a mixed group of pets. Their pets
-          include dogs, cats, birds, small animals, and fish.
+          days. The participants are between 21-39 and reside in metropolitan
+          and suburb areas in Sydney and Melbourne. Some of them only own one
+          pet, and some own a mixed group of pets. Their pets include dogs,
+          cats, birds, small animals, and fish.
         </SubText>
         <PieChart />
         <SubTitle>Personas</SubTitle>
@@ -275,8 +274,8 @@ export default function UX_D() {
               }}
             >
               “As a product manager, I want to make sure everything is getting
-              done properly. Sometimes I have to work overtime at weekends. But
-              I always try to spend more time with my family.”
+              done properly. So sometimes I have to work overtime at weekends.
+              But I always try to spend more time with my family.”
             </div>
             <div
               style={{
@@ -288,12 +287,12 @@ export default function UX_D() {
             >
               John is a product manager who works for a technology company. They
               are married and have two children. They live in a big house with
-              their family in Canberra rural area and have a dog Molly. John’s
-              house is far from the nearest pet shop, they drive there every two
-              months. John often stock up a lot of dog food whenever they go to
-              the shop so the dog food can be very heavy. When John is very
-              busy, they may forget to stock up dog food. John worried about the
-              delivery time so they don’t buy pet food online very frequently.
+              their family in Canberra rural area and have a dog, Molly. John’s
+              house is far from the nearest pet shop, and they drive there every
+              two months. John often stocks up a lot of dog food whenever they
+              go to the shop to be very heavy. When John is very busy, they may
+              forget to stock up on dog food. John worried about the delivery
+              time, so they don’t buy pet food online frequently.
             </div>
           </VerticalFlex>
           <VerticalFlex
@@ -332,9 +331,9 @@ export default function UX_D() {
                 marginTop: 30,
               }}
             >
-              “Time management is very important for a research degree student
-              like me. I always manage to spend more time being with my pets.
-              They comfort me when I amnot feeling well.”
+              “Time management is crucial for a research degree student like me.
+              I always manage to spend more time being with my pets. They
+              comfort me when I am not feeling well.”
             </div>
             <div
               style={{
@@ -345,12 +344,12 @@ export default function UX_D() {
               }}
             >
               Cindy is a second-year PhD student and lives with her pets (a cat,
-              a rabbit and two birds) in an aprtment in the city close to the
-              university. Cindy enjoys being with their pets, they always buy
-              their pets food on line but it’s difficult to find an online pet
-              supply to meet all their pets’ needs. If they buy pet food
-              separately from different websites, it’s very time-consuming and
-              less likely to get free shipping promotion on their order.
+              a rabbit and two birds) in an apartment in the city close to the
+              university. Cindy always buys pet food online. However, it’s
+              challenging to find an online pet supply to meet all their pets’
+              needs. In addition, if they buy pet food separately from different
+              websites, it’s very time-consuming and less likely to get free
+              shipping promotion on their order.
             </div>
           </VerticalFlex>
         </HorizontalFlex>
@@ -391,10 +390,10 @@ export default function UX_D() {
         <SubTitle>Competitive audit</SubTitle>
         <SubText style={{ marginBottom: 40 }}>
           I created a competitive audit that informs my design process and
-          reveals gaps in the market. It helps me identify key competitors’
-          strengths and weaknesses based on my research. My competitive audit
-          goal is to compare the user experience of each competitor’s website
-          and app.
+          reveals gaps in the market. In addition, it helps me identify key
+          competitors’ strengths and weaknesses based on my research. My
+          competitive audit goal is to compare the user experience of each
+          competitor’s website and app.
         </SubText>
         <MyButton
           target="_blank"
@@ -484,15 +483,15 @@ export default function UX_D() {
                 marginBottom: 80,
               }}
             >
-              To create a product that meets the users’ real needs, I conducted
+              To create a product that meets the users' real needs, I conducted
               moderated usability studies with 5 participants. They are one male
               and four females between the ages of 18-35 who reside in
               metropolitan and suburb areas in Australia. All the participants
               had at least one online shopping experience for pet food.
               <br />
               <br />
-              Each study took around 15-30 minutes remotely. Users were asked to
-              order dry dog food on a low-fidelity prototype.
+              Each study took around 15-30 minutes, and users needed to order
+              dry dog food on a low-fidelity prototype remotely.
             </SubText>
             <MyButton
               target="_blank"
@@ -538,9 +537,9 @@ export default function UX_D() {
                   }}
                 >
                   “As a customer, I also want to see how many products are in
-                  stock. If we have enough dog food, we can order and there is
-                  no need to worry too much about the delivery time. But if our
-                  dog food is almost finished, we need to pick the in-stock dog
+                  stock. If we have enough dog food, we can order, and there is
+                  no need to worry about the delivery time. But if we are
+                  running out of dog food, we need to pick the in-stock dog
                   food.”
                 </div>
                 <div style={{ fontSize: 14, marginRight: 250, marginTop: 10 }}>
@@ -629,11 +628,11 @@ export default function UX_D() {
                     marginTop: 30,
                   }}
                 >
-                  “I think you can add another test case for seller to double
-                  confirm after users placed their orders. Fresh pet food also
-                  takes time to prepare, if users do not receive seller's
-                  confirmation, users can also pick other food and the app
-                  proceed to next step”
+                  "I think you can add another test case for the seller to
+                  confirm again after users placed their orders. Fresh pet food
+                  also takes time to prepare, and if users do not receive any
+                  confirmation from the seller, users can also pick other food,
+                  and the app proceeds to the next step."
                 </div>
                 <div style={{ fontSize: 14, marginRight: 140, marginTop: 10 }}>
                   — Louise, New South Wales
@@ -669,14 +668,14 @@ export default function UX_D() {
         <MainTitle>- What I learned -</MainTitle>
         <SubText style={{ marginTop: 47, fontWeight: 500, marginBottom: 135 }}>
           Through this project, I realized the importance of doing user
-          interviews, and how to extract the most useful information for product
+          interviews and how to extract the most helpful information for product
           positioning from fragmented interview records and tap into the real
           needs of potential users. A quote from a book I read exemplifies this
           process perfectly, "When you convert nouns into verbs of your
-          intentions, you will find what you really care about.” In addition, I
-          have learned not to interfere with the judgment of the interviewees
-          with my assumptions. With open-ended questions, I may foster
-          independent thinking and get more unexpected answers.
+          intentions, you will find what you care about." In addition, I have
+          learned not to interfere with the judgment of the interviewees with my
+          assumptions. Instead, I may foster independent thinking and get more
+          unexpected answers with open-ended questions.
         </SubText>
         <SubFooter number={1}></SubFooter>
       </VerticalFlex>

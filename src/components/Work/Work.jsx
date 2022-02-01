@@ -74,7 +74,7 @@ export default function Work() {
         </h2>
         <p
           style={{
-            width: 450,
+            width: 600,
             height: 144,
             margin: "auto",
             lineHeight: "150%",
@@ -82,9 +82,9 @@ export default function Work() {
             marginBottom: 200,
           }}
         >
-          I am a designer who work on UX design, graphic design and motion
-          graphic design. I graduated from Monash University with a degree of
-          Multimedia Design. I am looking for full-time opportunities in 2022.
+          I am a UX designer who graduated from Monash University with a degree
+          in Multimedia Design. I am looking for full-time opportunities in
+          2022.
         </p>
       </div>
       <div
@@ -95,7 +95,7 @@ export default function Work() {
           <WorkCard
             title1="01 - UX DESIGN"
             title2="Pet Food Delivery App"
-            detail=" A mobile app that allows users to schedule the products delivery time."
+            detail="Pet Food Delivery is a mobile app that allows users to schedule the products delivery time."
             img={UX_Pet}
             nav="ux"
             backgroundColor="transparent"
@@ -104,7 +104,7 @@ export default function Work() {
           <WorkCard
             title1="02 - LOGO DESIGN"
             title2="Big Bowl"
-            detail=" A brand upgrade project for a local fast-food restaurant."
+            detail="The Big Bowl is a  brand upgrade project for a local fast-food restaurant."
             img={UX_Logo}
             nav="logo"
             backgroundColor="transparent"
@@ -116,7 +116,7 @@ export default function Work() {
           <WorkCard
             title1="03 - MOTION GRAPHICS DESIGN"
             title2="Popcorn Movie Review"
-            detail="An opening title designed for Student TV (conceptual)."
+            detail="Popcorn Movie Review is an opening title designed for Student TV (conceptual)."
             img={UX_Motion}
             nav="motion"
             backgroundColor="transparent"
@@ -125,7 +125,7 @@ export default function Work() {
           <WorkCard
             title1="04 - VEDIO EDITING"
             title2="Daydreamer"
-            detail="A seven-minute short film that tells the psychological journey of a girl."
+            detail="Daydreamer is a seven-minute short film that tells the psychological journey."
             img={UX_Video}
             nav="video"
             backgroundColor="transparent"

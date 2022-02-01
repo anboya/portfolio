@@ -65,11 +65,11 @@ export default function Logo_D() {
             marginTop: 100,
           }}
         >
-          When I was an intern, I was very glad to have the opportunity to be a
-          part of the team in "Big bowl" brand upgrade project. "Big bowl" is a
-          Chinese fast-food company that established since 1992. Our client
-          wanted the brand to have both historical sense and modern design
-          elements. Therefore, I combined a shape of bowl with Chinese
+          When I was an intern, I was thrilled to have the opportunity to be a
+          part of the team in the "Big bowl" brand upgrade project. "
+          <b>Big bowl</b>" is a Chinese fast-food company established in 1992.
+          Our client wanted the brand to have a historical sense and modern
+          design elements. It combines the shape of a bowl with the Chinese
           traditional stamp artistic effect.
         </SubText>
         <MyButton

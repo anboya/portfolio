@@ -63,11 +63,11 @@ export default function Video_D() {
             marginBottom: 100,
           }}
         >
-          This is a group project (group of three), my responsibility was audio
-          recording and video editing. Daydreamer is a seven-minute short film
-          that tells the psychological journey of a girl who is tired of her
-          work and life she lives and rethinking about value and happiness of
-          her life.
+          "Daydreamer" is a group project (group of three), and my
+          responsibility was audio recording and video editing. It is a
+          seven-minute short film that tells the psychological journey of a girl
+          who is tired of her work and life she lives and rethinking about value
+          and happiness of her life.
         </SubText>
         <iframe
           style={{ marginBottom: 200 }}

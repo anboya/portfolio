@@ -66,7 +66,7 @@ export default function Motion_D() {
             marginTop: 100,
           }}
         >
-          Popcorn Movie Review is an opening title that designed for Student TV
+          Popcorn Movie Review is an opening title designed for Student TV
           (conceptual). The style is creative, pop culture and interesting
           because the target audiences are 50% male/female 18- to 30-year-old
           students and academic staff.

@@ -46,10 +46,13 @@ export default function About() {
                 marginTop: 30,
               }}
             >
-              I am a UX designer and currently living in Melbourne. As a
-              life-long learner of design, I enjoy finding and solving problems
-              through the design process. I believe that a good design can reach
-              a perfect balance between aesthetics and utility.
+              I am a creative, open-minded and detail-oriented UX designer in
+              Melbourne. My design background has made me a life-long learner of
+              design. I enjoy exploring the reasons behind things and constantly
+              examining the structure through critical thinking. On the other
+              hand, my teaching experience has built my resilience improved my
+              communication and empathy skills. I believe that those skills make
+              me a good UX designer.
             </SubText>
             <SubTitle
               style={{ marginTop: 50, textAlign: "left", marginBottom: 10 }}
@@ -75,16 +78,17 @@ export default function About() {
             </div>
             <div
               style={{
-                width: 390,
+                width: 400,
                 fontSize: 16,
                 fontWeight: 500,
                 marginTop: 30,
               }}
             >
-              My interest in user experience design initially comes from my
+              My interest in user experience design initially came from my
               teaching experience at a special school. Students in the class
-              suffered from disabilities and many of them can’t communicate with
-              others verbally, while a speech-generating device,{" "}
+              suffered from disabilities, and many of them couldn't communicate
+              with others verbally. At the same time, a speech-generating
+              device,{" "}
               <a target="_blank" rel="noreferrer" href="https://lampwflapp.com">
                 <HoverSpan
                   style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
@@ -92,18 +96,18 @@ export default function About() {
                   LAMP (Language Acquisition through Motor Planning)
                 </HoverSpan>
               </a>{" "}
-              can help these students to express themselves. I was amazed by the
-              great user experience design in this device and the immeasurable
-              and positive impact it brings to people’s lives. I wish that I
-              could be part of the design that helps and empowers others. After
-              that, I started to work as a UX design intern while doing
-              self-paced study online. During that time, I finished my first
-              user experience design project, a{" "}
+              , can help these students to express themselves. I was amazed by
+              this device's excellent user experience design and its
+              immeasurable and positive impact on people's lives. As a result, I
+              wish I could be one of the people who made a fantastic design that
+              helps and empowers others. After that, I started to work as a UX
+              design intern while doing self-paced study online. During that
+              time, I finished my first user experience design project,{" "}
               <NavLink to="/work/ux">
                 <HoverSpan
                   style={{ color: "#E9168C", fontWeight: 700, fontSize: 16 }}
                 >
-                  pet food delivery app
+                  a pet food delivery app.
                 </HoverSpan>
               </NavLink>
             </div>
@@ -137,12 +141,12 @@ export default function About() {
               fontWeight: 500,
               fontSize: 16,
               marginTop: 50,
-              width: 920,
+              width: 950,
             }}
           >
-            In my free time, I love doing some voluntary work related to art and
-            education in the local community. I’m an animal lover and love
-            drawing, I draw{" "}
+            I love doing some voluntary work related to art and education in the
+            local community in my free time. I'm an animal lover and love
+            drawing. I draw{" "}
             <a
               target="_blank"
               rel="noreferrer"
@@ -154,9 +158,8 @@ export default function About() {
                 comics
               </HoverSpan>
             </a>{" "}
-            to record my life with my pets (a rabbit and a guinea pig). When I’m
-            not creating artwork, you can find me walking outdoors and getting
-            more inspiration.
+            to record my pets' lives. When I'm not creating artwork, you can
+            find me walking outdoors and getting more inspiration.
           </div>
           <HorizontalFlex style={{ margin: "50px 0 150px 0" }}>
             <VerticalFlex style={{ width: 266, alignItems: "flex-start" }}>
