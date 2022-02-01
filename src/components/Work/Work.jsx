@@ -74,7 +74,7 @@ export default function Work() {
         </h2>
         <p
           style={{
-            width: 600,
+            width: 500,
             height: 144,
             margin: "auto",
             lineHeight: "150%",

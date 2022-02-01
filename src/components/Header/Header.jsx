@@ -25,7 +25,10 @@ export default function Header() {
       >
         <NavLink to="/work">WORK</NavLink>
         <NavLink to="/about">ABOUT</NavLink>
-        <a href="" download="Boya An.pdf">
+        <a
+          href="https://drive.google.com/file/d/1jtzpmKLn2UQxcNR6EKYhOUQwz3E8g6_K/view?usp=sharing"
+          target="_blank"
+        >
           <HoverSpanNoUnderline>RESUME</HoverSpanNoUnderline>
         </a>
       </div>
