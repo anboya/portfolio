@@ -26,7 +26,7 @@ export default function Header() {
         <NavLink to="/work">WORK</NavLink>
         <NavLink to="/about">ABOUT</NavLink>
         <a
-          href="https://drive.google.com/file/d/1jtzpmKLn2UQxcNR6EKYhOUQwz3E8g6_K/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RvS9d-jshzqZyXBgeOf6iyTc-mAHir1o/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
