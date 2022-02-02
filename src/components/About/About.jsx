@@ -48,8 +48,8 @@ export default function About() {
             >
               I am a creative, open-minded and detail-oriented UX designer in
               Melbourne. My design background has made me a life-long learner of
-              design. I enjoy exploring the reasons behind things and constantly
-              examining the structure through critical thinking. On the other
+              design. I enjoy exploring the reasons behind things and examining
+              different design methods through critical thinking. On the other
               hand, my teaching experience has built my resilience improved my
               communication and empathy skills. I believe that those skills make
               me a good UX designer.
