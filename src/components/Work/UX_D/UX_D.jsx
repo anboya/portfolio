@@ -262,7 +262,7 @@ export default function UX_D() {
             <div style={{ fontSize: 20, fontWeight: 700, marginTop: 50 }}>
               John Smith, 39
             </div>
-            <div style={{ marginTop: 10 }}>Project Manager, married</div>
+            <div style={{ marginTop: 10 }}>Product Manager, married</div>
             <div
               style={{
                 fontSize: 14,

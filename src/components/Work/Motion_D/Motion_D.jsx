@@ -58,7 +58,7 @@ export default function Motion_D() {
           <Card icon={"Time"} title="2 weeks" />
           <Card
             icon={"Tool"}
-            title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Illustrator &nbsp;&nbsp; After Effects"
+            title="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Illustrator&nbsp; &nbsp;&nbsp; After Effects"
           />
         </HorizontalFlex>
         <SubText
