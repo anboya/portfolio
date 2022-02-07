@@ -109,3 +109,11 @@ export const HoverDiv = styled("div")({
     boxShadow: "8px 5px 4px rgba(0, 0, 0, 0.25)",
   },
 });
+
+export const HoverBg = styled("div")({
+  transition: "all 0.5s ease-out",
+  backgroundSize: "100%!important",
+  "&:hover": {
+    backgroundSize: "120%!important",
+  },
+});

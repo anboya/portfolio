@@ -5,7 +5,8 @@ import UX_Logo from "../../assets/image/UX_Logo.png";
 import UX_Motion from "../../assets/image/UX_Motion.png";
 import UX_Video from "../../assets/image/UX_Video.png";
 import { NavLink } from "react-router-dom";
-import { HoverDiv } from "../Common/Base/Base";
+import { HoverBg, HoverDiv } from "../Common/Base/Base";
+import bgi from "../../assets/image/bgi.png";
 
 export function WorkCard(props) {
   const { title1, title2, detail, img, nav, backgroundColor } = props;
@@ -61,7 +62,15 @@ export function WorkCard(props) {
 export default function Work() {
   return (
     <div className="work">
-      <div style={{ height: 460, paddingTop: 125 }}>
+      <HoverBg
+        style={{
+          height: 460,
+          paddingTop: 125,
+          width: "100%",
+          background: `no-repeat url("${bgi}")`,
+          backgroundPosition: "center",
+        }}
+      >
         <h2
           style={{
             textAlign: "center",
@@ -86,7 +95,7 @@ export default function Work() {
           in Multimedia Design. I am looking for full-time opportunities in
           2022.
         </p>
-      </div>
+      </HoverBg>
       <div
         style={{ backgroundColor: "#F2F2F2", height: 1100, padding: "0 200px" }}
       >
