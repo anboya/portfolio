@@ -172,8 +172,9 @@ export default function UX_D() {
             marginTop: 100,
           }}
         >
-          Pet food delivery delays cause many inconveniences for pet owners,
-          especially when there is no left pet food.
+          The Pet food delivery app is a mobile app that allows users to order
+          pet food online and schedule the delivery time. Our target users are
+          pet owners across Australia.
         </SubText>
         <HorizontalFlex style={{ marginTop: 60 }}>
           <div style={{ width: 335 }}>
