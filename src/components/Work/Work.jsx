@@ -91,9 +91,9 @@ export default function Work() {
             marginBottom: 200,
           }}
         >
-          I am a UX designer who graduated from Monash University with a degree
-          in Multimedia Design. I am looking for full-time opportunities in
-          2022.
+          I aaaaam a UX designer who graduated from Monash University with a
+          degree in Multimedia Design. I am looking for full-time opportunities
+          in 2022.
         </p>
       </HoverBg>
       <div
